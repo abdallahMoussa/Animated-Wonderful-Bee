@@ -1,0 +1,172 @@
+/* -----------------------  machine ---------- */
+
+.machine{
+    width: 700px;
+    height: 555px;
+    position: absolute;
+    bottom: 0;
+}
+.mach-part1 {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mach-part3{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+} 
+
+.stack{
+    width: 100px;
+    height: 120px;
+    margin: 100px 0 0 40 ;
+}
+.stack-tube{
+    width: 90%;
+    height: 80%;
+    border-left: 40px solid #965502;
+    border-bottom: 30px solid #965502;
+    border-radius: 0 0 0 50%;
+    position: relative;
+    z-index: -1
+}
+.hall{
+    width: 40px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+    margin: -5px 0 0 -40px;
+    position: absolute;
+    float: left
+}
+.smokes{
+    width: 40px;
+    height: 10px;
+    float: left;
+    margin:-5px 0 0 -40px;
+    position: absolute;
+    padding-left: 5px
+}
+.smoke{
+    width: 0px;
+    height: 0px;
+    background: darkgray;
+    float: left;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .8;
+    margin-top: -5px
+}
+.smoke:nth-child(2) {
+    margin: 0px 0 0 10px;
+}
+
+.smoke:nth-child(3) {
+    margin-left: 20px;
+}
+.jars{
+    margin: 130px 0 1px 0;
+    width: 96%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: -1;
+}
+
+.jar{
+    width: 60px ;
+    height: 72px;
+    border-radius: 15px 15px 10px 10px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 1px 1px 2px;
+    overflow: hidden;
+    position: relative;
+}
+.nick{
+    width: 60%;
+    height: 5px;
+    background: rgba(255,255,255,.4);
+    margin:  auto;
+    border-radius: 50%;
+}
+.honeyIn{
+    width: 100%;
+    height: 0%;
+    box-shadow: inset 0px 0px 10px orangered;
+    margin-top: 10px;
+    background: orange;  
+    position: absolute;
+    bottom: 0;
+}
+.line{
+    width: 80%;
+    height: 20px;
+    border: 2px solid;
+    float:left;
+    border-radius: 20px;
+    display: flex;
+    background-color: rgba(30,85,8);
+    justify-content: space-between;
+}
+.gear{
+    width: 25px;
+    height: 40px;
+    text-align: center;
+    padding-top: .5px;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: -11px;
+    color: wheat;
+    text-shadow: 1px 1px 2px black;
+    display: block;
+    animation: rotate 3s linear  infinite;
+}
+
+.input{
+    width: 20%;
+    height: 120px;
+    background: linear-gradient(to top , rgb(100,100,100) , black) ;
+    float: left;
+    border-right: 5px solid;
+    border-top: 5px solid;
+    margin-top: -100px;
+    border-radius: 10px 50% 0 0;
+    padding-left: 40px;
+}
+
+.input > i:first-child {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 50pt;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+    animation-direction: reverse;
+}
+.input > i:nth-child(2){
+    font-size: 20pt;
+    color: azure;
+    margin: -35px 0 0 0px
+}
+.input > i:nth-child(3){
+    width: 50px;
+    height: 50px;
+    font-size: 25pt;
+    margin-top: -20px;
+    color: antiquewhite;
+    animation-direction: reverse;
+}
+@keyframes rotate {
+    to{
+        transform: rotate(-360deg);
+    }
+}
