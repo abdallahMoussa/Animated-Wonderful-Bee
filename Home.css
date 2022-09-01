@@ -1,0 +1,104 @@
+
+.nature{
+    width: 500px;
+    height: 500px;
+    position: absolute
+}
+.home{
+    width: 350px;
+    height: 400px;
+    padding-top: 20px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+    overflow: visible !important;
+}
+.part{
+    width: 22%;
+    height: 10%;
+    background: #db7c08;
+    border-radius: 50%;
+    border: 3px solid #965502;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    margin: auto;
+    margin-top: -20px
+}
+
+.part:nth-child(2),.part:nth-child(9){
+    width: 40%;
+    height: 15%;
+    border-width: 4px 4px 13px 13px;
+    margin-top: -25px;
+}
+.part:nth-child(3),.part:nth-child(8){
+    width: 60%;
+    height: 28%;
+    border-width: 5px 5px 15px 15px;
+    margin-top: -40px
+}
+.part:nth-child(4),.part:nth-child(7){
+    width: 85%;
+    height: 35%;
+    border-width: 8px 15px 8px  ;
+    margin-top: -80px
+}
+.part:nth-child(5),.part:nth-child(6){
+    width: 95%;
+    height: 40%;
+    margin-top: -100px
+}
+.part:nth-child(7){
+    margin-top: -100px
+}
+.part:nth-child(6){
+    margin-top: -110px;
+     border-width:  8px 20px 20px 8px ;
+}
+.part:nth-child(8){
+    margin-top: -80px;
+}
+.part:nth-child(9){
+    margin-top: -55px;
+}
+.part:nth-child(10){
+    margin-top: -30px;
+    position: relative;
+}
+
+.tree{
+    width: 500px;
+    height: 600px;
+    background: linear-gradient(to right ,#92201e, #8a5803 , #aa850a);
+    position: absolute;
+    z-index: -1;
+    clip-path:polygon(0 0, 20px 20px, 30px 20px,50px 25px, 70px 20px,
+     90px 20px,120px 25px, 150px 20px, 180px 22px, 220px 20px,250px 25px, 
+     270px 28px, 300px 32px ,320px 35px, 330px 40px , 350px 45px , 360px 50px, 
+     370px 55px, 390px 60px, 400px 55px, 410px 50px , 420px 40px, 430px 30px,
+     450px 30px , 480px 25px, 400px 70px, 380px 80px, 350px 85px, 320px 80px, 
+     300px 70px, 270px 120px,260px 120px, 250px 60px, 230px 65px, 200px 70px, 
+     150px 85px, 100px 90px, 80px 95px,75px 100px, 70px 105px, 60px 110px, 50px 120px, 
+     40px 125px, 30px 130px, 20px 135px, 15px 140px, 10px 150px,5px 155px ,0px 160px );
+}
+
+.tap{
+    border-top: 30px solid #965502;
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+   height: 0;
+   width: 30px;
+   position: relative;
+   left: 30%;
+   top: 30px;
+   z-index: 10;
+}
+.honey{
+   width: 10px;
+   height: 0px;
+   background: orange;
+   position: absolute;
+   top: 0px;
+   z-index: -1000;
+}
