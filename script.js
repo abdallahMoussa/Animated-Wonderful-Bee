@@ -67,7 +67,7 @@ $(function(){
     var honeyTimeOut;
     const honey=()=>{
         $(".honey").animate({
-            height:"130px"
+            height:"135px"
         },200)
         honeyTimeOut =setTimeout(()=>{
             clearTimeout(honeyTimeOut)
