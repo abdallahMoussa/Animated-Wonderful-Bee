@@ -2,5 +2,10 @@
 
 flying bee make the honey..  
 
+-HTML
+-CSS
+-JavaScript
+-jQuery
+
 LIVE DEMO..
 https://animated-flying-bee.vercel.app/
