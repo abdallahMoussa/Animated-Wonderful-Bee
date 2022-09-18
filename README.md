@@ -4,10 +4,10 @@
 flying bee make the honey..  
 
 # Tech:
--HTML
--CSS
--JavaScript
--jQuery
+- HTML
+- CSS
+- JavaScript
+- jQuery
 
 # LIVE DEMO:
 https://animated-flying-bee.vercel.app/
