@@ -50,7 +50,9 @@
     float: left;
     margin:-5px 0 0 -40px;
     position: absolute;
-    padding-left: 5px
+    padding-left: 5px;
+    display: flex;
+   justify-content: center;
 }
 .smoke{
     width: 0px;
@@ -58,16 +60,9 @@
     background: darkgray;
     float: left;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     opacity: .8;
     margin-top: -5px
-}
-.smoke:nth-child(2) {
-    margin: 0px 0 0 10px;
-}
-
-.smoke:nth-child(3) {
-    margin-left: 20px;
 }
 .jars{
     margin: 130px 0 1px 0;
