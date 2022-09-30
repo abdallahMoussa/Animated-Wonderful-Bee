@@ -67,14 +67,16 @@ $(function(){
     var honeyTimeOut;
     const honey=()=>{
         $(".honey").animate({
-            height:"135px"
-        },200)
-        honeyTimeOut =setTimeout(()=>{
-            clearTimeout(honeyTimeOut)
-            $('.honey').animate({
-                height:"0px"
-            },200)
-        },1000)          
+            height:"150px"
+        },200,()=>{
+            honeyTimeOut =setTimeout(()=>{
+                clearTimeout(honeyTimeOut)
+                $('.honey').animate({
+                    height:"0px"
+                },200)
+            },800)
+        })
+                  
     }
     setInterval(honey,2000)
     
@@ -84,7 +86,7 @@ $(function(){
     $($(".honeyIn")[1]).css({height:"80%"})
     const honeyIn = ()=>{
         $($(".honeyIn")[index]).animate({
-            height:"80%"
+            height:"85%"
         },1200,()=>{
                 $(jars).animate({
                     marginLeft:"-=122px"
@@ -109,15 +111,15 @@ $(function(){
         $(".smoke").animate({
            width:"40px",
             height:"40px",
-            marginTop:"-=90px",
-            marginLeft:"-=15px",
+            marginTop:"-90px",
+            marginLeft:"-15px",
             opacity:'.8'
         },2000,()=>{
             $(".smoke").css({
                     width:"5px",
                     height:"5px",
-                    marginTop:"+=90px",
-                    marginLeft:"+=15px",
+                    marginTop:"0px",
+                    marginLeft:"0px",
                     opacity:".7"
                 })
             });
